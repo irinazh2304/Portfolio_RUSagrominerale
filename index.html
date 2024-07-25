@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rusagromineral</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__wrap">
+                <div class="header__line">
+                    <a href="#" class="header__logo">
+                        <svg width="246" height="28" viewBox="0 0 246 28" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_6_532)">
+                                <path
+                                    d="M9.39272 17.8961V12.2235L0 4.96094V15.0598L9.39272 22.3174V27.99L22.4552 17.8961V7.80216L9.39272 17.8961Z"
+                                    fill="#5CB246"></path>
+                                <path d="M15.8149 0L9.3927 4.96109V12.2236L15.8149 7.26253V0Z" fill="#5CB246">
+                                </path>
+                                <path
+                                    d="M43.6013 6.71786C42.5252 5.59413 41.087 5.0249 39.3116 5.0249H31.5157V22.9604H34.3772V17.5822H39.3116C41.082 17.5822 42.5252 17.013 43.5964 15.8893C44.6775 14.7606 45.223 13.2149 45.223 11.3011C45.223 9.38733 44.6775 7.84649 43.5964 6.71295L43.6013 6.71786ZM41.4837 13.9019C40.8986 14.5447 40.12 14.8735 39.1678 14.8735H34.3772V7.73363H39.1678C40.12 7.73363 40.8986 8.06241 41.4837 8.70524C42.054 9.33335 42.3417 10.2117 42.3417 11.306C42.3417 12.4003 42.054 13.2738 41.4837 13.9068V13.9019Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M111.716 9.79462C110.704 9.79462 109.772 10.0694 108.944 10.619C108.601 10.8447 108.309 11.1097 108.081 11.3992L107.987 11.517H107.441L107.173 10.0596H104.664V27.9951H107.391V21.6355H107.987L108.081 21.7483C108.294 22.0084 108.567 22.2538 108.894 22.4795C109.663 22.9751 110.615 23.2254 111.726 23.2254C113.412 23.2254 114.845 22.6022 115.986 21.3754C117.131 20.1388 117.712 18.4998 117.712 16.5076C117.712 14.5153 117.131 12.8763 115.986 11.6397C114.845 10.4129 113.412 9.78971 111.726 9.78971L111.716 9.79462ZM113.928 19.6481C113.223 20.4087 112.301 20.7964 111.18 20.7964C110.059 20.7964 109.132 20.4087 108.433 19.6481C107.739 18.8924 107.386 17.8374 107.386 16.5125C107.386 15.1875 107.739 14.1276 108.433 13.3768C109.132 12.6162 110.059 12.2285 111.18 12.2285C112.301 12.2285 113.228 12.6162 113.928 13.3768C114.622 14.1276 114.974 15.1826 114.974 16.5125C114.974 17.8423 114.622 18.8924 113.928 19.6481Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M66.7509 12.2285C69.1511 12.2285 69.9247 13.9019 70.1578 14.7017H72.8209C72.6523 13.6124 72.082 12.4984 71.2042 11.5465C70.7232 11.0214 70.1033 10.5994 69.3743 10.2853C68.6056 9.95655 67.7229 9.78971 66.7509 9.78971C64.8316 9.78971 63.2249 10.4227 61.9751 11.674C60.7304 12.9254 60.0956 14.5496 60.0956 16.5076C60.0956 18.4655 60.7304 20.0897 61.9751 21.3411C63.2199 22.5924 64.8267 23.2254 66.7509 23.2254C67.7179 23.2254 68.6006 23.0585 69.3743 22.7298C70.1082 22.4206 70.7232 21.9937 71.2042 21.4686C72.077 20.5167 72.6523 19.4027 72.8209 18.3134H70.1578C69.9247 19.1132 69.1511 20.7866 66.7509 20.7866C65.645 20.7866 64.7027 20.3793 63.9539 19.5745C63.205 18.7795 62.8281 17.7441 62.8281 16.5026C62.8281 15.2611 63.21 14.2257 63.9539 13.4308C64.7077 12.626 65.6499 12.2187 66.7509 12.2187V12.2285Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M131.339 11.679C130.095 10.4276 128.488 9.79462 126.564 9.79462C124.64 9.79462 123.038 10.4276 121.788 11.679C120.543 12.9303 119.908 14.5545 119.908 16.5125C119.908 18.4704 120.543 20.0947 121.788 21.346C123.033 22.5973 124.64 23.2303 126.564 23.2303C128.488 23.2303 130.09 22.5973 131.339 21.346C132.584 20.0947 133.219 18.4704 133.219 16.5125C133.219 14.5545 132.584 12.9303 131.339 11.679ZM129.366 19.5843C128.612 20.3891 127.67 20.7964 126.569 20.7964C125.468 20.7964 124.525 20.3891 123.772 19.5843C123.023 18.7894 122.646 17.754 122.646 16.5125C122.646 15.271 123.028 14.2405 123.772 13.4406C124.525 12.6358 125.468 12.2285 126.569 12.2285C127.67 12.2285 128.612 12.6358 129.366 13.4406C130.114 14.2356 130.491 15.271 130.491 16.5125C130.491 17.754 130.11 18.7845 129.366 19.5843Z"
+                                    fill="white"></path>
+                                <path d="M93.3916 22.9604H96.1192V12.626H102.283V10.0596H93.3916V22.9604Z" fill="white">
+                                </path>
+                                <path
+                                    d="M80.2398 5.0249L73.7631 22.9604H76.8874L78.3008 18.9856H86.9L88.3134 22.9604H91.4377L84.961 5.0249H80.2398ZM79.2133 16.4192L82.2136 7.99371H82.9872L85.9876 16.4192H79.2133Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M53.5594 16.7186H53.0287L49.5028 10.0645H46.6512L51.9873 19.8591L51.7443 20.3498C51.6253 20.5854 51.3823 20.7375 51.1145 20.7375H48.863V22.9653H51.3277C52.3841 22.9653 53.3461 22.3814 53.8272 21.4539L59.7385 10.0645H56.887L53.5594 16.7186Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M211.515 9.79953C210.513 9.79953 209.581 10.0792 208.743 10.6239C208.395 10.8546 208.108 11.1146 207.88 11.4042L207.785 11.5219H207.24L206.972 10.0645H204.463V28H207.19V21.6404H207.785L207.88 21.7533C208.088 22.0084 208.361 22.2538 208.693 22.4844C209.457 22.98 210.414 23.2303 211.525 23.2303C213.211 23.2303 214.644 22.6071 215.785 21.3803C216.93 20.1437 217.51 18.5047 217.51 16.5125C217.51 14.5202 216.93 12.8812 215.785 11.6446C214.644 10.4178 213.211 9.79462 211.525 9.79462L211.515 9.79953ZM213.727 19.653C213.027 20.4136 212.1 20.8013 210.979 20.8013C209.858 20.8013 208.931 20.4136 208.232 19.653C207.538 18.8973 207.185 17.8423 207.185 16.5174C207.185 15.1924 207.538 14.1325 208.232 13.3817C208.931 12.6211 209.858 12.2335 210.979 12.2335C212.1 12.2335 213.027 12.6211 213.727 13.3817C214.421 14.1374 214.773 15.1875 214.773 16.5174C214.773 17.8472 214.421 18.8973 213.727 19.653Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M225.599 9.79952C223.967 9.79952 222.678 10.2019 221.76 10.9969C220.937 11.7084 220.417 12.572 220.208 13.5584H222.941C223.065 13.1462 223.328 12.7683 223.724 12.4396C224.2 12.0372 224.83 11.836 225.599 11.836C226.417 11.836 227.082 12.101 227.578 12.6211C228.069 13.1364 228.317 13.8234 228.317 14.6625V15.2366H224.924C223.189 15.2366 221.85 15.6243 220.947 16.38C220.059 17.1258 219.608 18.1563 219.608 19.4322C219.608 20.497 220.015 21.3754 220.858 22.1164C221.696 22.8574 222.842 23.2303 224.255 23.2303C225.296 23.2303 226.234 22.98 227.032 22.4844C227.394 22.2538 227.687 22.0084 227.895 21.7533L227.989 21.6404H228.525L228.793 22.9653H231.039V14.6576C231.039 13.2885 230.538 12.1206 229.546 11.1981C228.545 10.2706 227.216 9.79952 225.594 9.79952H225.599ZM228.321 17.8423C228.321 18.8777 228.004 19.707 227.384 20.3007C226.764 20.8945 225.896 21.1938 224.8 21.1938C224.052 21.1938 223.452 21.0123 223.02 20.659C222.574 20.2909 222.346 19.7904 222.346 19.1672C222.346 18.2398 222.842 17.1357 225.202 17.1357H228.321V17.8423Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M235.423 10.0645V18.5538C235.423 19.9573 234.798 20.6295 233.464 20.6639V23.0978H233.901C236.598 23.0978 238.151 21.5128 238.151 18.7501V12.4984H243.05V22.9653H245.778V10.0645H235.423Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M183.475 15.3642H177.361V10.0645H174.638V22.9653H177.361V17.9306H183.475V22.9653H186.203V10.0645H183.475V15.3642Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M162.756 19.3635H162.245V10.0645H159.518V22.9653H163.296L167.844 13.6614H168.355V22.9653H171.082V10.0645H167.304L162.756 19.3635Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M154.286 5.0249H151.176V5.02981H150.656L146.068 19.5058H145.419L140.836 5.02981H140.157V5.0249H137.052V5.02981H135.743V22.9653H138.605V9.0929H139.264L143.668 22.9653H147.819L152.223 9.0929H152.882V22.9653H155.744V5.02981H154.286V5.0249Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M201.775 16.2475C201.775 14.4318 201.15 12.8861 199.92 11.6544C198.69 10.4227 197.168 9.79462 195.387 9.79462C193.468 9.79462 191.861 10.4276 190.612 11.679C189.367 12.9303 188.732 14.5545 188.732 16.5125C188.732 18.4704 189.367 20.0947 190.612 21.346C191.856 22.5973 193.463 23.2303 195.387 23.2303C196.34 23.2303 197.222 23.0733 198.001 22.7592C198.775 22.4501 199.389 22.0575 199.831 21.5913C200.287 21.1055 200.644 20.6541 200.892 20.2615C201.036 20.0309 201.155 19.81 201.244 19.6039H198.388C198.184 19.9425 197.842 20.2615 197.376 20.551C196.831 20.8896 196.161 21.0614 195.387 21.0614C194.366 21.0614 193.488 20.7424 192.769 20.1094C192.055 19.4813 191.613 18.6421 191.465 17.6166L191.435 17.4154H201.681C201.681 17.4154 201.775 16.9198 201.775 16.2475ZM192.809 12.8812C193.478 12.2727 194.346 11.9685 195.387 11.9685C196.429 11.9685 197.202 12.2825 197.842 12.9057C198.467 13.5142 198.869 14.3092 199.042 15.271L199.087 15.5163H191.41L191.47 15.2562C191.698 14.2797 192.149 13.4799 192.809 12.8861V12.8812Z"
+                                    fill="white"></path>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_6_532">
+                                    <rect width="245.778" height="28" fill="white"></rect>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <menu class="header__menu menu">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#"><span>Компания</span></a>
+                            <a class="menu__link" href="#"><span>Услуги</span></a>
+                            <a class="menu__link" href="#">Технология</a>
+                            <a class="menu__link" href="#">Поставщикам</a>
+                            <a class="menu__link" href="#">Новости</a>
+                            <a class="menu__link" href="#">Контакты</a>
+                        </li>
+                    </menu>
+                    <div class="header__actions actions">
+                        <a class="actions__phone" href="tel:88003507759">8 800 350 77 59</a>
+                        <a class="actions__request">Отправить запрос</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="block-b">
+            <div class="block-b__video">
+                <video preload="auto" muted playsinline>
+                    <source src="/video/block-b.mp4" type="video/mp4">
+                    </source>
+                </video>
+            </div>
+            <div class="container block-b__container">
+                <div class="block-b__wrap">
+                    <div class="block-b__inner">
+                        <div class="block-b__main main">
+                            <div class="main__h1">Лидер в сфере комплексных услуг по внесению безводного
+                                аммиака в почву
+                            </div>
+                            <a href="#" class="main__play play">
+                                <div class="play__pic">
+                                    <div class="play__pic-icon">
+                                        <svg width="18" height="22" viewBox="0 0 18 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.500002 1.47372L17 11L0.500001 20.5263L0.500002 1.47372Z"
+                                                stroke="white"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="play__text">Смотреть видео</div>
+                            </a>
+                        </div>
+                        <div class="block-b__desc desc">
+                            <a href="#" class="desc__item item">
+                                <div class="item__text text">
+                                    <div class="text__subtitle">Внесение аммиака</div>
+                                    <div class="text__title">Для сельского хозяйства</div>
+                                </div>
+                                <div class="item__arrow">
+                                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="19" height="1" fill="white"></rect>
+                                        <rect width="25.384" height="1"
+                                            transform="matrix(0.707107 -0.707107 0.710337 0.703862 0.0578003 18.25)"
+                                            fill="white"></rect>
+                                        <rect x="18" y="19" width="19" height="1" transform="rotate(-90 18 19)"
+                                            fill="white"></rect>
+                                    </svg>
+                                </div>
+                            </a>
+                            <a href="#" class="desc__item item">
+                                <div class="item__text text">
+                                    <div class="text__subtitle">Поставка и утилизация аммиака</div>
+                                    <div class="text__title">Для промышленности</div>
+                                </div>
+                                <div class="item__arrow">
+                                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="19" height="1" fill="white"></rect>
+                                        <rect width="25.384" height="1"
+                                            transform="matrix(0.707107 -0.707107 0.710337 0.703862 0.0578003 18.25)"
+                                            fill="white"></rect>
+                                        <rect x="18" y="19" width="19" height="1" transform="rotate(-90 18 19)"
+                                            fill="white"></rect>
+                                    </svg>
+                                </div>
+                            </a>
+                            <a href="#" class="desc__item item">
+                                <div class="item__text text">
+                                    <div class="text__subtitle">Отправить предложение</div>
+                                    <div class="text__title">Для поставщиков</div>
+                                </div>
+                                <div class="item__arrow">
+                                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="19" height="1" fill="white"></rect>
+                                        <rect width="25.384" height="1"
+                                            transform="matrix(0.707107 -0.707107 0.710337 0.703862 0.0578003 18.25)"
+                                            fill="white"></rect>
+                                        <rect x="18" y="19" width="19" height="1" transform="rotate(-90 18 19)"
+                                            fill="white"></rect>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block-info">
+            <div class="container block-info__container">
+                <div class="block-info__wrap">
+                    <div class="block-info__block-info-main block-info-main">
+                        <div class="block-info-main__logo"><span>Русагроминерал&nbsp;—</span>высокие стандарты качества
+                        </div>
+                        <div class="block-info-main__block-info-main-text block-info-main-text">
+                            <div class="block-info-main-text__title">Предоставляем современный сервис по внесению
+                                безводного
+                                аммиака
+                                в почву. Качественное оборудование, собственный парк спецтехники <br />и
+                                квалифицированный
+                                персонал, гарантируют полное соблюдение норм и стандартов качества на разных этапах
+                                работ в
+                                установленные сроки.</div>
+                            <a class="block-info-main-text__link" href="#">о компании</a>
+                        </div>
+                    </div>
+                    <div class="block-info__block-info-list block-info-list">
+                        <div class="block-info-list__item-info item-info">
+                            <div class="item-info__meaning">27 <span>регионов</span></div>
+                            <div class="item-info__plus">География работы с&nbsp;&nbsp;заказчиками РФ</div>
+                        </div>
+                        <div class="block-info-list__item-info item-info">
+                            <div class="item-info__meaning">6 000 <span>га</span></div>
+                            <div class="item-info__plus">Производительность в&nbsp;сутки</div>
+                        </div>
+                        <div class="block-info-list__item-info item-info">
+                            <div class="item-info__meaning">150 000 <span>га</span></div>
+                            <div class="item-info__plus">Ежегодно обрабатываемых площадей</div>
+                        </div>
+                        <div class="block-info-list__item-info item-info">
+                            <div class="item-info__meaning">360 <span>тонн</span></div>
+                            <div class="item-info__plus">Ежедневная доставка аммиака </div>
+                        </div>
+                        <div class="block-info-list__item-info item-info">
+                            <div class="item-info__meaning">30 <span>полей</span></div>
+                            <div class="item-info__plus">Возможность обработки одновременно</div>
+                        </div>
+                        <div class="block-info-list__item-info item-info">
+                            <div class="item-info__meaning">56 <span>сотрудников</span></div>
+                            <div class="item-info__plus">Гарантирующих качественный сервис </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block-links">
+            <div class="container block-links__container">
+                <div class="block-links__wrap">
+                    <div class="block-links__block-links-text block-links-text">
+                        <div class="block-links-text__title">Выполняем <span>весь комплекс работ</span> и отвечаем за
+                            результат</div>
+                        <a class="block-links-text__link" href="#">все услуги</a>
+                    </div>
+                    <div class="block-links__links-wrap links-wrap">
+                        <div class="block-links__element element">
+                            <a href="#" class="element__wrap">
+                                <div class="element__number">01</div>
+                                <div class="element__title">внесение аммиака</div>
+                                <div class="element__arrow">
+                                    <svg width="19.000000" height="19.000000" viewBox="0 0 19 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect id="Rectangle 25" width="19.000000" height="1.000000" fill="#28313C"
+                                            fill-opacity="1.000000" />
+                                        <rect id="Rectangle 27" x="0.057617" y="18.250000" width="25.384018"
+                                            height="1.000000" transform="rotate(-45 0.057617 18.250000)" fill="#28313C"
+                                            fill-opacity="1.000000" />
+                                        <rect id="Rectangle 26" x="18.000000" y="19.000000" width="19.000000"
+                                            height="1.000001" transform="rotate(-90 18.000000 19.000000)" fill="#28313C"
+                                            fill-opacity="1.000000" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="block-links__element element">
+                            <a href="#" class="element__wrap">
+                                <div class="element__number">02</div>
+                                <div class="element__title">Поставка и утилизация</div>
+                                <div class="element__arrow">
+                                    <svg width="19.000000" height="19.000000" viewBox="0 0 19 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect id="Rectangle 25" width="19.000000" height="1.000000" fill="#28313C"
+                                            fill-opacity="1.000000" />
+                                        <rect id="Rectangle 27" x="0.057617" y="18.250000" width="25.384018"
+                                            height="1.000000" transform="rotate(-45 0.057617 18.250000)" fill="#28313C"
+                                            fill-opacity="1.000000" />
+                                        <rect id="Rectangle 26" x="18.000000" y="19.000000" width="19.000000"
+                                            height="1.000001" transform="rotate(-90 18.000000 19.000000)" fill="#28313C"
+                                            fill-opacity="1.000000" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="block-links__element element">
+                            <a href="#" class="element__wrap">
+                                <div class="element__number">03</div>
+                                <div class="element__title">аммиак в баллонах</div>
+                                <div class="element__arrow">
+                                    <svg width="19.000000" height="19.000000" viewBox="0 0 19 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect id="Rectangle 25" width="19.000000" height="1.000000" fill="#28313C"
+                                            fill-opacity="1.000000" />
+                                        <rect id="Rectangle 27" x="0.057617" y="18.250000" width="25.384018"
+                                            height="1.000000" transform="rotate(-45 0.057617 18.250000)" fill="#28313C"
+                                            fill-opacity="1.000000" />
+                                        <rect id="Rectangle 26" x="18.000000" y="19.000000" width="19.000000"
+                                            height="1.000001" transform="rotate(-90 18.000000 19.000000)" fill="#28313C"
+                                            fill-opacity="1.000000" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="block-links__element element">
+                            <a href="#" class="element__wrap">
+                                <div class="element__number">04</div>
+                                <div class="element__title">Аренда техники</div>
+                                <div class="element__arrow">
+                                    <svg width="19.000000" height="19.000000" viewBox="0 0 19 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect id="Rectangle 25" width="19.000000" height="1.000000" fill="#28313C"
+                                            fill-opacity="1.000000" />
+                                        <rect id="Rectangle 27" x="0.057617" y="18.250000" width="25.384018"
+                                            height="1.000000" transform="rotate(-45 0.057617 18.250000)" fill="#28313C"
+                                            fill-opacity="1.000000" />
+                                        <rect id="Rectangle 26" x="18.000000" y="19.000000" width="19.000000"
+                                            height="1.000001" transform="rotate(-90 18.000000 19.000000)" fill="#28313C"
+                                            fill-opacity="1.000000" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block-slider">
+            <div class="container block-slider__container">
+                <div class="block-slider__wrap">
+                    <div class="block-slider__block-slider-text block-slider-text">
+                        <div class="block-slider-text__title"><span>Собственный парк техники</span>
+                            позволяет на&nbsp;высоком уровне выполнять операции
+                            по внесению безводного аммиака в&nbsp;почву
+                        </div>
+                        <a class="block-slider-text__link" href="#">парк техники</a>
+                    </div>
+                    <div class="block-slider__inner">
+                        <div class="block-slider__block-slider-desc block-slider-desc">
+                            <div class="block-slider-desc__text">
+                                <div class="block-slider-desc__paging"><span>01</span>
+                                    <img src="/img/Line.svg">&nbsp;&nbsp;05
+                                </div>
+                                <div class="block-slider-desc__title">Трактора КИРОВЕЦ</div>
+                                <div class="block-slider-desc__subtitle">Мощность двигателя 420 л.с. идеально подходит
+                                    для работы с культиваторами фирмы Case. Система параллельного вождения позволяет
+                                    трактору двигаться по строго обозначенной траектории минимизируя «наезды» при
+                                    внесении.</div>
+                            </div>
+                            <div class="block-slider-desc__arrow">
+                                <div class="block-slider-desc__arrow-left">
+                                    <img src="/img/arrow-left.svg" alt="стрелка-влево">
+                                </div>
+                                <div class="block-slider-desc__arrow-right">
+                                    <img src="/img/arrow-right.svg" alt="стрелка-вправо">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-slider__block-slider-pic block-slider-pic">
+                            <div class="block-slider-pic__1">
+                                <img src="/img/slider1.webp" alt="слайдер-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="block-partners">
+            <div class="container block-partners__container">
+                <div class="block-partners__wrap">
+                    <div class="block-partners__text">
+                        <span>нам доверяют</span>
+                        крупнейшие предприятия АПК страны
+                    </div>
+                    <div class="block-partners__block-partners-list block-partners-list">
+                        <div class="block-partners__block-partners-item block-partners-item">
+                            <a href="#" class="block-partners__block-partners-logo block-partners-logo">
+                                <img src="/img/parther1.svg" alt="партнер-1">
+                            </a>
+                        </div>
+                        <div class="block-partners__block-partners-item block-partners-item">
+                            <a href="#" class="block-partners__block-partners-logo block-partners-logo">
+                                <img src="/img/parther2.svg" alt="партнер-2">
+                            </a>
+                        </div>
+                        <div class="block-partners__block-partners-item block-partners-item">
+                            <a href="#" class="block-partners__block-partners-logo block-partners-logo">
+                                <img src="/img/parther3.svg" alt="партнер-3">
+                            </a>
+                        </div>
+                        <div class="block-partners__block-partners-item block-partners-item">
+                            <a href="#" class="block-partners__block-partners-logo block-partners-logo">
+                                <img src="/img/parther4.svg" alt="партнер-4">
+                            </a>
+                        </div>
+                        <div class="block-partners__block-partners-item block-partners-item">
+                            <a href="#" class="block-partners__block-partners-logo block-partners-logo">
+                                <img src="/img/parther5.svg" alt="партнер-5">
+                            </a>
+                        </div>
+                        <div class="block-partners__block-partners-item block-partners-item">
+                            <a href="#" class="block-partners__block-partners-logo block-partners-logo">
+                                <img src="/img/parther6.svg" alt="партнер-6">
+                            </a>
+                        </div>
+                        <div class="block-partners__block-partners-item block-partners-item">
+                            <a href="#" class="block-partners__block-partners-logo block-partners-logo">
+                                <img src="/img/parther7.svg" alt="партнер-7">
+                            </a>
+                        </div>
+                        <div class="block-partners__block-partners-item block-partners-item">
+                            <a href="#" class="block-partners__block-partners-logo block-partners-logo">
+                                <img src="/img/parther8.svg" alt="партнер-8">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block-pros">
+            <div class="container block-pros__container">
+                <div class="block-pros__wrap">
+                    <div class="block-pros__block-pros-main block-pros-main">
+                        <div class="block-pros-main__title"><span>преимущества</span>
+                            безводного аммиака
+                        </div>
+                        <div class="block-pros-main__text">
+                            <div class="block-pros-main__subtitle">Безводный аммиак — самое концентрированное азотное
+                                удобрение из существующих, доля содержания азота — 82,2%. Оно равномерно распределяется
+                                в почвенном горизонте, не вымывается осадками и не выветривается, обеспечивая растения
+                                питанием на протяжении всего вегетативного периода.
+                            </div>
+                            <a class="block-pros-main__link" href="#">о технологии</a>
+                        </div>
+                    </div>
+                    <div class="block-pros-pic">
+                        <img src="/img/block-pros-pic.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block-news">
+            <div class="container block-news__container">
+                <div class="block-news__wrap">
+                    <div class="block-news-text">
+                        <div class="block-news-text__title">новости и события</div>
+                        <div class="block-news-text__link">все новости</div>
+                    </div>
+                    <div class="block-news__inner">
+                        <div class="block-news-main">
+                            <div class="block-news-main__block-news-main-list block-news-main-list">
+                                <div class="block-news-main-list__inner">
+                                    <a href="#" class="block-news-main-list__pic">
+                                        <img src="/img/block-news-pic-1.png" alt="картинка-1">
+                                    </a>
+                                    <div class="block-news-main-list__info">
+                                        <a href="#" class="block-news-main-list__title">Нижегородская выставка
+                                            земледелия 2023 г.
+                                        </a>
+                                        <a href="#" class="block-news-main-list__subtitle">Культиваторы Case завоевали
+                                            признание на
+                                            российском рынке, отличаясь безупречным качеством и инновационными
+                                            решениями.
+                                        </a>
+                                        <a href="#" class="block-news-main-list__date">23.11.2023</a>
+                                        <a href="#" class="block-news-main-list__arrow">
+                                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="19" height="1" fill="white"></rect>
+                                                <rect width="25.384" height="1"
+                                                    transform="matrix(0.707107 -0.707107 0.710337 0.703862 0.0578003 18.25)"
+                                                    fill="white"></rect>
+                                                <rect x="18" y="19" width="19" height="1" transform="rotate(-90 18 19)"
+                                                    fill="white"></rect>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-news-main__block-news-main-list block-news-main-list">
+                                <div class="block-news-main-list__inner">
+                                    <a href="#" class="block-news-main-list__pic">
+                                        <img src="/img/block-news-pic-2.png" alt="картинка-2">
+                                    </a>
+                                    <div class="block-news-main-list__info">
+                                        <a href="#" class="block-news-main-list__title">Второй всероссийский съезд
+                                            производителей
+                                            органической продукции</a>
+                                        <a href="#" class="block-news-main-list__subtitle">Мероприятие состоится в
+                                            Москве, 4
+                                            декабря, 2023 года. Организатор этого события — Союз органического
+                                            земледелия.
+                                        </a>
+                                        <a href="#" class="block-news-main-list__date">04.11.2023</a>
+                                        <a href="#" class="block-news-main-list__arrow">
+                                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="19" height="1" fill="white"></rect>
+                                                <rect width="25.384" height="1"
+                                                    transform="matrix(0.707107 -0.707107 0.710337 0.703862 0.0578003 18.25)"
+                                                    fill="white"></rect>
+                                                <rect x="18" y="19" width="19" height="1" transform="rotate(-90 18 19)"
+                                                    fill="white"></rect>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-news-main__block-news-main-list block-news-main-list">
+                                <div class="block-news-main-list__inner">
+                                    <a href="#" class="block-news-main-list__pic">
+                                        <img src="/img/block-news-pic-3.png" alt="картинка-3">
+                                    </a>
+                                    <div class="block-news-main-list__info">
+                                        <a href="#" class="block-news-main-list__title">В России собрано рекордное
+                                            количество
+                                            картофеля</a>
+                                        <a href="#" class="block-news-main-list__subtitle">Сборы картофеля в
+                                            промышленном
+                                            секторе
+                                            ощутимо выросли за последние несколько лет и продолжают расти. Ключевая
+                                            причина
+                                            — это расширение полей и зон хранения.</a>
+                                        <a href="#" class="block-news-main-list__date">08.10.2023</a>
+                                        <a href="#" class="block-news-main-list__arrow">
+                                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="19" height="1" fill="white"></rect>
+                                                <rect width="25.384" height="1"
+                                                    transform="matrix(0.707107 -0.707107 0.710337 0.703862 0.0578003 18.25)"
+                                                    fill="white"></rect>
+                                                <rect x="18" y="19" width="19" height="1" transform="rotate(-90 18 19)"
+                                                    fill="white"></rect>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="block-feedback">
+            <div class="container block-feedback__container">
+                <div class="block-feedback__wrap">
+                    <div class="block-feedback__block-feedback-text block-feedback-text">
+                        <div class="block-feedback-text__title">отправьте запрос мы свяжемся с вами</div>
+                        <div class="block-feedback-text__subtitle">Наши специалисты свяжутся с вами в ближайшее
+                            время и ответят на все интересующие вопросы</div>
+                    </div>
+                    <div class="block-feedback__block-feedback-form block-feedback-form">
+                        <div class="block-feedback-form__item">
+                            <div class="block-feedback-form__input block-feedback-form__input--error">
+                                <input type="text" placeholder="Контактное лицо">
+                            </div>
+                        </div>
+                        <div class="block-feedback-form__item">
+                            <div class="block-feedback-form__input">
+                                <input type="text" placeholder="Телефон">
+                            </div>
+                            <div class="block-feedback-form__input">
+                                <input type="text" placeholder="E-mail">
+                            </div>
+                        </div>
+                        <div class="block-feedback-form__item">
+                            <div class="block-feedback-form__input">
+                                <input type="text" placeholder="Сообщение">
+                            </div>
+                        </div>
+                        <div class="block-feedback-form__item">
+                            <div class="block-feedback-form__input">
+                                <button type="button" class="block-feedback-form__send">
+                                    <span>Отправить запрос</span>
+                                </button>
+                            </div>
+                            <div class="block-feedback-form__input">
+                                <div class="block-feedback-form__info">Нажимая на кнопку, вы даете согласие на обработку
+                                    персональных данных и соглашаетесь с политикой конфиденциальности.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="footer">
+        <div class="container footer__container">
+            <div class="footer__wrap">
+                <div class="footer__footer-number footer-number">
+                    <a href="#" class="footer-number__tel">8 800 350 77 59</a>
+                    <a href="#" class="footer-number__feedback">Заказать обратный звонок</a>
+                </div>
+                <div class="footer__footer-list footer-list">
+                    <div class="footer-list__footer-list-services footer-list-services">
+                        <a class="footer-list-services__title" href="#">Услуги</a>
+                        <ul class="footer-list-services__list">
+                            <li class="footer-list-services__item">
+                                <a class="footer-list-services__link" href="#">Внесение аммиака</a>
+                            </li>
+                            <li class="footer-list-services__item">
+                                <a class="footer-list-services__link" href="#">Поставка и утилизация</a>
+                            </li>
+                            <li class="footer-list-services__item">
+                                <a class="footer-list-services__link" href="#">Аммиак в баллонах</a>
+                            </li>
+                            <li class="footer-list-services__item">
+                                <a class="footer-list-services__link" href="#">Аренда техники</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-list__footer-list-company footer-list-company">
+                        <a class="footer-list-company__title" href="#">Компания</a>
+                        <ul class="footer-list-company__list">
+                            <li class="footer-list-company__item">
+                                <a class="footer-list-company__link" href="#">О компании</a>
+                            </li>
+                            <li class="footer-list-company__item">
+                                <a class="footer-list-company__link" href="#">Парк техники</a>
+                            </li>
+                            <li class="footer-list-company__item">
+                                <a class="footer-list-company__link" href="#">Руководство</a>
+                            </li>
+                            <li class="footer-list-company__item">
+                                <a class="footer-list-company__link" href="#">Вакансии</a>
+                            </li>
+                            <li class="footer-list-company__item">
+                                <a class="footer-list-company__link" href="#">Реквизиты</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-list__footer-list-menu footer-list-menu">
+                        <ul class="footer-list-menu__list">
+                            <li class="footer-list-menu__item">
+                                <a class="footer-list-menu__link" href="#">Технология</a>
+                            </li>
+                            <li class="footer-list-menu__item">
+                                <a class="footer-list-menu__link" href="#">поставщикам</a>
+                            </li>
+                            <li class="footer-list-menu__item">
+                                <a class="footer-list-menu__link" href="#">Новости</a>
+                            </li>
+                            <li class="footer-list-menu__item">
+                                <a class="footer-list-menu__link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__footer-link footer-link">
+                    <div class="footer-link__footer-link-presentation footer-link-presentation">
+                        <div class="footer-link-presentation__title">Презентация компании</div>
+                        <button type="button" class="footer-link-presentation__btn">
+                            <span>скачать (2.3 mb, PDF)</span>
+                        </button>
+                    </div>
+                    <div class="footer-link__footer-link-mail footer-link-mail">
+                        <div class="footer-link-mail__title">Напишите нам</div>
+                        <a href="#" class="footer-link-mail__mail">rusagromineral@mail.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block-bottom-line">
+        <div class="container block-bottom-line__container">
+            <div class="block-bottom-line__wrap">
+                <div class="block-bottom-line__copyright">© 2012 — 2023 &nbsp;ООО «РусАгроМинерал»</div>
+                <div class="block-bottom-line__info">
+                    <a class="block-bottom-line__info-item" href="#">Политика конфиденциальности</a>
+                    <a class="block-bottom-line__info-item" href="#">Положение о защите персональных данных</a>
+                </div>
+                <div class="block-bottom-line__social">
+                    <a class="block-bottom-line__social-item" href="#">Vkontakte</a>
+                    <a class="block-bottom-line__social-item" href="#">Telegram</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
