@@ -1,0 +1,49 @@
+.block-bottom-line {
+    background-color: var(--color-black);
+    border-top: 0.0625rem solid #979ca1;
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2.5rem 0 2.75rem;
+    }
+    &__copyright {
+        font-size: 1.125rem;
+        color: var(--color-white);
+        line-height: 100%;
+        letter-spacing: 0.0063rem;
+    }
+    &__info {
+        display: flex;
+        grid-gap: 7rem;
+        margin: 0 0 0 4.75rem;
+    }
+    &__info-item {
+        font-size: 1.125rem;
+        color: var(--color-grey);
+        line-height: 100%;
+
+        &:hover {
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+            color: var(--color-white);
+        }
+    }
+    &__social {
+        display: flex;
+        grid-gap: 1.9375rem;
+        margin: 0 0 0 2.625rem;
+    }
+    &__social-item {
+        font-size: 1.125rem;
+        color: var(--color-white);
+        line-height: 100%;
+
+        &:hover {
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+            color: var(--color-grey);
+        }
+    }
+}

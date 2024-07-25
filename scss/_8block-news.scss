@@ -1,0 +1,175 @@
+.block-news {
+    &__wrap {
+        padding: 5.625rem 0 6.25rem;
+    }
+    &__inner {
+        margin: 4.875rem 0 0;
+        position: relative;
+    }
+}
+.block-news-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+        font-size: 2.625rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    &__link {
+        position: relative;
+        font-size: 1.25rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-top: -0.4375rem;
+
+        &::before {
+            /*нижнее подчеркивание*/
+            content: "";
+            position: absolute;
+            bottom: -0.3125rem;
+            left: 0;
+            width: 100%;
+            height: 0.0625rem;
+            background: #28313c;
+            transition: 0.3s ease-in-out;
+            transform-origin: left center; /*эфект для подчеркивания*/
+        }
+        &:hover {
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+            color: var(--color-green);
+
+            &::before {
+                transform: scaleX(0);
+                background: #5cb246;
+            }
+        }
+    }
+}
+.block-news-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 120px;
+}
+.block-news-main-list {
+    border-bottom: 1px solid #cdcfd1;
+    padding: 3.75rem 0 3.3125rem 0;
+    display: block;
+    position: relative;
+
+    &:hover {
+        cursor: pointer;
+
+        .block-news-main-list__title {
+            color: #5cb246;
+            transition: 0.3s ease-in-out;
+            text-decoration: underline;
+        }
+        &:hover svg rect[fill="white"] {
+            fill: #5cb246;
+            transition: 0.3s;
+        }
+    }
+    &:first-child {
+        grid-row-start: 1;
+        grid-row-end: 3;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            transform: translate(50%, -50%);
+            right: -3.75rem;
+            width: 0.0625rem;
+            height: calc(100% - 7.5rem);
+            background: #cdcfd1;
+        }
+        .block-news-main-list__inner {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .block-news-main-list__pic {
+            height: 370px;
+        }
+        .block-news-main-list__title {
+            margin-top: 0;
+        }
+        .block-news-main-list__subtitle {
+            width: 80%;
+        }
+        .block-news-main-list__date {
+            margin: 29px 0 0;
+        }
+        .block-news-main-list__arrow {
+            bottom: 0.375rem;
+        }
+    }
+    &:nth-child(1),
+    &:nth-child(2) {
+        border-top: 0.0625rem solid #cdcfd1;
+    }
+    &__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.875rem;
+    }
+    &__pic {
+        display: block;
+        height: 13.75rem;
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: flex-start;
+        width: 100%;
+    }
+    &__title {
+        font-size: 1.625rem;
+        font-weight: 500;
+        margin-top: -0.3125rem;
+        overflow: hidden;
+        line-height: 116%;
+
+        &:hover {
+        }
+    }
+    &__subtitle {
+        font-size: 1.125rem;
+        color: var(--color-grey);
+        margin: 20px 0;
+        overflow: hidden;
+        line-height: 123%;
+    }
+    &__date {
+        position: relative;
+        font-size: 1.125rem;
+        color: var(--color-grey);
+        margin: auto 0 -5px;
+    }
+    &__arrow {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 1.1875rem;
+        height: 1.1875rem;
+
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+        svg rect {
+            fill: #28313c;
+            transition: 0.3s ease-in-out;
+        }
+    }
+}
