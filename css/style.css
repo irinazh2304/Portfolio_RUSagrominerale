@@ -1,13 +1,13 @@
 @charset "UTF-8";
 @font-face {
-    font-family: "GraphikLCG";
+    font-family: GraphikLCG;
     src: url('fonts/GraphikLCG-Regular.woff') format('woff'), 
         url('fonts/GraphikLCG-Regular.woff2') format('woff2');
     font-style: normal;
     font-display: normal;
 }
 @font-face {
-    font-family: "TTHoves";
+    font-family: TTHoves;
     src: url('fonts/TTHoves-Light.woff') format('woff'), 
         url('fonts/TTHoves-Light.woff2') format('woff2');
     font-weight: 300;
@@ -15,7 +15,7 @@
     font-display: normal;
 }
 @font-face {
-    font-family: "TTHoves";
+    font-family: TTHoves;
     src: url('fonts/TTHoves-Regular.woff') format('woff'), 
         url('fonts/TTHoves-Regular.woff2') format('woff2');
     font-weight: 400;
@@ -23,7 +23,7 @@
     font-display: normal;
 }
 @font-face {
-    font-family: "TTHoves";
+    font-family: TTHoves;
     src: url('fonts/TTHoves-Medium.woff') format('woff'), 
         url('fonts/TTHoves-Medium.woff2') format('woff2');
     font-weight: 500;
@@ -31,7 +31,7 @@
     font-display: normal;
 }
 @font-face {
-    font-family: "TTHoves";
+    font-family: TTHoves;
     src: url('fonts/TTHoves-DemiBold.woff') format('woff'), 
         url('fonts/GraphikLCG-Regular.woff2') format('woff2');
     font-weight: 600;
