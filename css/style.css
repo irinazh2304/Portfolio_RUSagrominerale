@@ -522,7 +522,7 @@ input:focus-visible {
 }
 .block-info-main-text__link {
   display: block;
-  width: 13.5%;
+  width: 14.5%;
   position: relative;
   font-size: 1.25rem;
   font-weight: 500;
@@ -1117,7 +1117,7 @@ input:focus-visible {
   text-transform: uppercase;
   cursor: pointer;
   margin-top: 2.9rem;
-  width: 16%;
+  width: 17%;
 }
 .block-pros-main__link::before {
   /*нижнее подчеркивание*/
